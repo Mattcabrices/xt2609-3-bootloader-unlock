@@ -4,6 +4,10 @@ Community unlock guide, tested image, and reproducibility notes for **Motorola E
 
 **Project maintained and documented by [Matt Cabrices](https://github.com/Mattcabrices).** This project records a tested repair and interoperability workflow using upstream Val Protocol research; upstream exploit and patcher credit belongs to its authors.
 
+## Device identification
+
+This project is for the **Motorola Edge (2026)**, also called **Moto Edge (2026)**. The tested carrier variant is **XT2609-3 (Cricket)**, codename **masera**. Match the model number and documented firmware before using any image. Other Edge generations and XT2609 variants have not been verified by this project.
+
 ## Compatibility — read this first
 
 **Confirmed on one XT2609-3 Cricket/CID51 phone. Not verified on every unit, variant, or firmware version.** This is not a universal Motorola unlock. The method may apply to other compatible units, but a matching model name alone is insufficient.
