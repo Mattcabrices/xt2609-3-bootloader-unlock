@@ -1,0 +1,9 @@
+PRIVATE-*
+*keys.private*
+*.log
+*.zip
+*.7z
+*.sparsechunk.*
+__pycache__/
+.venv/
+.env
