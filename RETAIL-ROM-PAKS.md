@@ -1,5 +1,12 @@
 # Motorola retail Android and PAKS removal
 
+## Ready-made Community build v2
+
+[Community build v2 downloads](https://github.com/Mattcabrices/xt2609-3-bootloader-unlock/releases/tag/retail-cleanup-v2) include system_a.img, system_ext.cleaned.v2.img, product.cleaned.v2.img (split into five raw .part files) and vbmeta.retail.verification-disabled.img. Download the release's README-DOWNLOAD.md and manifest, then use reassemble_and_verify.py to assemble and validate the files before considering installation. Use the v2 filenames in place of the older cleaned filenames below; all device/slot/partition preflight checks and bootloader-preservation boundaries still apply.
+
+The v2 images additionally exclude all five APK packages previously removed only for user 0, plus dedicated configuration files. Offline decompression, exact-removal, Android metadata and 400-APK identity audits passed. The earlier build was booted on one XT2609-3; **v2 itself has not had a separate boot or reset/setup test**. The historical preparation notes below describe the older images where they mention extra per-user removal.
+
+
 ## Scope
 
 This records the successful **Android-only** conversion on one XT2609-3. It is not a universal flash recipe. The retail package targets **XT2609-1 RETUS/CID50**, while the tested phone is XT2609-3 Cricket/CID51. Both use masera, but that alone does not prove interchangeability.

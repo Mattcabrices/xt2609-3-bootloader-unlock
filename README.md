@@ -4,6 +4,10 @@ Community unlock guide, tested image, and reproducibility notes for **Motorola E
 
 **Project maintained and documented by [Matt Cabrices](https://github.com/Mattcabrices).** This project records a tested repair and interoperability workflow using upstream Val Protocol research; upstream exploit and patcher credit belongs to its authors.
 
+## Cleaned retail Android download
+
+[Download Community build v2](https://github.com/Mattcabrices/xt2609-3-bootloader-unlock/releases/tag/retail-cleanup-v2) for the documented Moto Edge (2026) XT2609-3 configuration. It includes the matching Android system, cleaned system_ext/product images, verification-disabled VBMeta, checksums and reassembly instructions. **The earlier conversion booted on one phone; this exact v2 revision is offline validated and has not had a separate boot/reset test.** Download release assets, not the repository source ZIP, for the Android images.
+
 ## Device identification
 
 This project is for the **Motorola Edge (2026)**, also called **Moto Edge (2026)**. The tested carrier variant is **XT2609-3 (Cricket)**, codename **masera**. Match the model number and documented firmware before using any image. Other Edge generations and XT2609 variants have not been verified by this project.
